@@ -4,7 +4,17 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text style={{ fontWeight: 500 }}>HELLO <Text style={{ color: 'red' }}>WORD</Text></Text>
+      <Text style={{ fontWeight: 500, marginTop: '10px' }}>HELLO{' '}
+        <Text style={{ textDecorationLine: 'underline', fontStyle: 'italic', color: 'blue' }}>
+          WORD
+        </Text>
+      </Text>
+      <Text style={{ fontWeight: 500, marginTop: '10px' }}>HELLO{' '}
+        <Text style={{ backgroundColor: 'black', color: 'white' }}>
+          WORD
+        </Text>
+      </Text>
       <StatusBar style="auto" />
     </View>
   );
